@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+}
+
+#container {
+	
+	width:1000px;
+	height:1330px;
+	margin:auto;
+	background-color:pink;
+	box-shadow:#000;
+	-moz-box-shadow: 0 0 15px 2px #999;
+	-webkit-box-shadow: 0 0 15px 2px #999;
+
+}
+
+
+#header {
+	width:1000px;
+	height:121px;
+	float:left;
+	background-image:url(images/header.png);
+	
+}
+
+#header ul {
+	font-family:"a song for jennifer";
+	list-style-type:none;	
+	font-size:19px;
+	padding-left:140px;
+	margin-top:65px;
+	
+}
+
+#header li {
+	float:left;
+	padding-right:30px;
+	
+}
+
+#header a {
+	text-decoration:none;
+	color:black;
+	
+}
+
+
+#header li:hover {
+	list-style-image:url(images/oranjevierkant.png);
+	
+}
+
+
+.donateur{
+	color:#FFFFFF;
+	margin-left:8px;
+	font-size:22px;
+}
+
+#foto {
+	width:1000px;
+	height:586px;
+	float:left;
+	background-image:url(images/foto.png);	
+}
+
+#content {
+	width:1000px;
+	height:568px;
+	float:left;
+	background-image:url(images/content.png);		
+}
+
+
+
+#knoppen {
+	width:185px;;
+	height:568px;
+	
+	float:left;
+}
+
+#knop1 {
+	width:185px;
+	height:170px;
+	float:left;	
+	margin-top:28px;
+	
+}
+
+#knop1 img {
+	margin-top:4px;
+	margin-left:13px;
+	
+}
+
+#knop2 {
+
+	width:185px;
+	height:170px;
+	float:left;
+	
+}
+
+#knop2 img {
+	margin-top:4px;
+	margin-left:13px;
+	
+}
+
+#knop3 {
+	width:185px;
+	height:170px;
+	float:left;
+	
+}
+
+#knop3 img {
+	margin-top:4px;
+	margin-left:13px;
+	
+}
+
+#tekst {
+	width:815px;
+	height:300px;
+	float:left;
+}
+
+#tekst1 {
+	width:325px;
+	height:300px;
+	float:left;
+}
+
+#tekst1 p {
+	font-family:Calibri;
+	margin-top:5px;
+	margin-right:13px;
+	margin-left:15px;
+	font-size:16px;
+}
+
+#tekst1 h1 {
+	font-family:"a song for jennifer";
+	margin-bottom:0px;
+	padding-bottom:0px;
+	font-weight:normal;
+	margin-left:10px;
+	font-size:35px;
+	margin-top:18px;
+}
+
+#tekst1 h6 {
+	margin-top:0px;
+	font-weight:normal;
+	font-size:13px;
+	font-family:calibri;
+	margin-left:250px;
+}
+
+#tekst1 a {
+	text-decoration:none;
+	color:black;
+}
+
+#tekst2 {
+	width:325px;
+	height:300px;
+	float:left;
+}
+
+
+#tekst2 p {
+	font-family:Calibri;
+	margin-top:5px;
+	margin-right:13px;
+	margin-left:15px;
+	font-size:16px;
+}
+
+#tekst2 h1 {
+	font-family:"a song for jennifer";
+	margin-bottom:0px;
+	padding-bottom:0px;
+	font-weight:normal;
+	margin-left:10px;
+	font-size:35px;
+	margin-top:18px;
+}
+
+#tekst2 h6 {
+	margin-top:0px;
+	font-weight:normal;
+	font-size:13px;
+	font-family:calibri;
+	margin-left:250px;
+}
+
+#tekst2 a {
+	text-decoration:none;
+	color:black;
+}
+
+
+#geplaatst {
+	width:165px;
+	height:300px;
+	float:left;
+}
+
+#geplaatstkat{
+	width:165px;
+	height:150px;
+	float:left;
+}
+
+#geplaatstkat img {
+	margin-top:38px;
+	margin-left:15px;
+}
+
+#geplaatsthond{
+	width:165px;
+	height:150px;
+	float:left;
+}
+
+#geplaatsthond img {
+	margin-top:20px;
+	margin-left:15px;
+}
+
+#contact {
+	width:815px;
+	height:268px;
+	float:left;
+}
+
+#contacttekst{
+	width:585px;
+	height:268px;
+	float:left;
+	
+}
+
+#contacttekst1{
+	width:293px;
+	height:268px;
+	float:left;
+	color:#a6a191;
+	
+	
+}
+
+#contacttekst1 ul{
+	font-family:Calibri;
+	font-size:16px;
+	padding-left:40px;
+}
+
+#contacttekst1 li{
+	list-style-type:none;
+	padding-bottom:5px;
+
+}
+#contacttekst1 h1 {
+	font-family:"a song for jennifer";
+	font-weight:normal;
+	font-size:30px;
+	margin-top:0px;
+	padding-top:10px;
+	padding-left:40px;
+
+	
+}
+
+
+#contacttekst2{
+	width:292px;
+	height:268px;
+	float:left;
+	color:#a6a191;
+}
+
+#contacttekst2 table{
+	font-family:Calibri;
+	font-size:16px;
+	
+}
+
+#contacttekst2 td {
+	padding-left:15px;
+}
+
+
+#contacttekst2 h1 {
+	font-family:"a song for jennifer";
+	font-weight:normal;
+	font-size:30px;
+	margin-top:0px;
+	padding-left:15px;
+	padding-top:10px;
+	
+	
+
+}
+
+
+#geschiktknoppen{
+	width:230px;
+	height:268px;
+	float:left;
+}
+
+#geschiktknoppen1 {
+	width:230px;
+	height:134px;
+	float:left;
+}
+
+#geschiktknoppen1 img {
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#geschiktknoppen2{
+	width:230px;
+	height:134px;
+	float:left;
+}
+
+#geschiktknoppen2 img {
+	margin-left:20px;
+	margin-top:9px;
+}
+
+#sluitbalk {
+	width:1000px;
+	height:55px;
+	float:left;
+	background-image:url(images/sluitbalk.png);
+	
+}
+
+#sluitbalk li {
+	float:left;	
+	padding-right:30px;
+	list-style-type:none;
+	font-family:Calibri;
+	font-size:14px;
+	color:white;
+}
+	
+#sponsors {
+	width:734px;
+	height:55px;
+	float:left;
+	margin-top:4px;
+}
+
+#sponsors a {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+	
+	
+	
+#sluitbalkimgs {
+	width:266px;
+	height:55px;
+	float:left;
+	margin-top:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

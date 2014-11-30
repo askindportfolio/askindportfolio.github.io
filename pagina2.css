@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+}
+
+#container {
+	
+	width:1000px;
+	height:1330px;
+	margin:auto;
+	background-color:pink;
+	box-shadow:#000;
+	-moz-box-shadow: 0 0 15px 2px #999;
+	-webkit-box-shadow: 0 0 15px 2px #999;
+
+}
+
+
+#header {
+	width:1000px;
+	height:121px;
+	float:left;
+	background-image:url(images/header.png);
+	
+}
+
+#header ul {
+	font-family:"a song for jennifer";
+	list-style-type:none;	
+	font-size:19px;
+	padding-left:140px;
+	margin-top:65px;
+	
+}
+
+#header li {
+	float:left;
+	padding-right:30px;
+	
+}
+
+#header a {
+	text-decoration:none;
+	color:black;
+	
+}
+
+
+#header li:hover {
+	list-style-image:url(images/oranjevierkant.png);
+	
+}
+
+
+.donateur{
+	color:#FFFFFF;
+	margin-left:8px;
+	font-size:22px;
+}
+
+#foto {
+	width:1000px;
+	height:586px;
+	float:left;
+	background-image:url(images/foto.png);	
+}
+
+#content {
+	width:1000px;
+	height:568px;
+	float:left;
+	background-image:url(images/content.png);
+	
+}
+
+#tekstcontent {
+	width:800px;
+	height:513px;
+	background-image:url(images/bgtekst.png);
+	float:left;
+	margin-top:37px;
+	
+}
+
+
+#tekstcontent p {
+	font-family:Calibri;
+	font-size:16px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#tekstcontent h1 {
+	font-family:"a song for jennifer";
+	font-weight:normal;
+	font-size:35px;
+	margin-top:9px;
+	margin-left:10px;
+	
+}
+
+
+
+
+#knoppen {
+	width:185px;;
+	height:568px;
+	float:left;
+	
+}
+
+#knop1 {
+	width:185px;
+	height:170px;
+	float:left;	
+	margin-top:28px;
+	
+}
+
+#knop1 img {
+	margin-top:4px;
+	margin-left:13px;
+	
+}
+
+#knop2 {
+
+	width:185px;
+	height:170px;
+	float:left;
+	
+}
+
+#knop2 img {
+	margin-top:4px;
+	margin-left:13px;
+	
+}
+
+#knop3 {
+	width:185px;
+	height:170px;
+	float:left;
+	
+}
+
+#knop3 img {
+	margin-top:4px;
+	margin-left:13px;
+	
+}
+
+#tekst {
+	width:815px;
+	height:300px;
+	float:left;
+}
+
+
+#sluitbalk {
+	width:1000px;
+	height:55px;
+	float:left;
+	background-image:url(images/sluitbalk.png);
+	
+}
+
+#sluitbalk li {
+	float:left;	
+	padding-right:30px;
+	list-style-type:none;
+	font-family:Calibri;
+	font-size:14px;
+	color:white;
+}
+	
+#sponsors {
+	width:734px;
+	height:55px;
+	float:left;
+	margin-top:4px;
+}
+
+#sponsors a {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+	
+	
+	
+#sluitbalkimgs {
+	width:266px;
+	height:55px;
+	float:left;
+	margin-top:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
